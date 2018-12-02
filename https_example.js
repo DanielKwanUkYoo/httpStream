@@ -6,8 +6,9 @@ var options = {
 };
 
 
-var callback = function() {
+var callback = function(response) {
   console.log('In response handler callback!');
+  console.log('responsoe: ', response);
 }
 
 console.log("I'm about to make the request!");
